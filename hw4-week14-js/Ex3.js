@@ -21,7 +21,7 @@ else {
     alert("Your answer has been added to the NOT answered homework list.");
 }
 alert("Answered Homework:"+oryndalgan);
-console.log("Not answered Homework:", oryndalmagan);
+alert("Not answered Homework:", oryndalmagan);
 
 }
 
