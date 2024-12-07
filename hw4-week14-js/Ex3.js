@@ -20,6 +20,7 @@ else {
     
     alert("Your answer has been added to the NOT answered homework list.");
 }
+//
 alert("Answered Homework:"+oryndalgan);
 alert("Not answered Homework:", oryndalmagan);
 
