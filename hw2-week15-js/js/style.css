@@ -1,0 +1,30 @@
+
+
+h1{
+    color: black;
+    text-align: center;
+
+}
+#container{
+    display: flex;
+    background-color: grey;
+    text-align: center;
+    margin-left: 160px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+}
+#Button1,#Button2,#Button3 {
+    
+     width: 100px;
+     height: 30px;
+     border: 1px solid black;
+     margin-left: 40px;
+     
+     
+}
+
+
+
