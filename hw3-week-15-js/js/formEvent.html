@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formEvent.css">
+</head>
+<body>
+    
+    <div class="contact-container">
+
+    <h1>ACS-ке анонимді пікір қалдыру формасы </h1>
+
+    <form id="form"> 
+        <label for="group">Тобыңыз:<span class="required">*</span></label>
+        <select id="group">
+            <option value="choose">Тобыңызды таңдаңыз</option>
+            <option value="24/2">24/2</option>
+            <option value="24/4">24/4</option>
+            <option value="24/7">24/7</option>
+        </select>
+        
+        
+        <label for="text">Оқу орталығы қысқаша екі сөзбен:</label>
+        <textarea id="pikir" rows="3"  cols="50" placeholder="Максималды ұзындығы: 15"></textarea>
+        <p id="errorMessage" style ="color:red;"></p>
+
+        <label for="input-range">Орталықты 0-100 арасында бағалаңыз:</label>
+        <input id="input-range" type="range" min="0" max="100" value="0">
+        <p id="text-range" style ="color:red;"></p>
+
+        <button type="submit">Жіберу</button>
+        <!-- <p>Сіз таңдадыңыз: <span id="selectedValue"></span></p> -->
+    </form>
+       
+    
+</div>
+
+    
+
+    <script src="/formEvent.js"></script>
+</body>
+</html>
