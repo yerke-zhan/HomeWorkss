@@ -1,53 +1,5 @@
-<!DOCTYPE html>
-<html lang=en>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Деректер карточкалары</title>
-    <style>
-        /* Стильдер */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            padding: 20px;
-        }
-
-        .card {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            width: 250px;
-            padding: 20px;
-            transition: transform 0.3s ease;
-        }
-
-        .card:hover {
-            transform: scale(1.05);
-        }
-
-        .card h3 {
-            font-size: 18px;
-            color: #333;
-        }
-
-        .card p {
-            font-size: 14px;
-            color: #666;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Деректер қосылатын контейнер -->
-    <div id="cards-container"></div>
-
-    <script>
-        // Деректер массиві
-        const data = [
+// Деректер массиві
+const data = [
     {title:'"Абай жолы" -Мұхтар Әуезов',
     description: 'Абайдың өмірі мен қазақ қоғамының тарихи шежіресі.'},
     {title:'"Қан мен тер" -Әбдіжәміл Нұрпейісов',
@@ -106,7 +58,3 @@ const child =document.getElementById('card');
 
         // Деректерді шығару
         renderCards();
-    </script>
-
-</body>
-</html>
