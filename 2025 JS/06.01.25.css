@@ -1,0 +1,53 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.main-container{
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(57, 54, 54);
+    border-radius: 10px; 
+    overflow: hidden;
+}
+.screen{
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    background-color: black;
+    border: none;
+    font-size: large;
+    color: antiquewhite;
+    
+    
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(5, 50px);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+
+.divide,.multiply, .plus, .minus {
+    background-color: orange
+
+}
+.equals{
+    background-color: green;
+    
+}
+.clear,.znak,.percent{
+    background-color: gray;
+}
+
+.zero {
+    grid-column: span 2;
+}
+button{
+    border-radius: 5px;
+}
