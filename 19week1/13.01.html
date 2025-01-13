@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+          }
+          
+          .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          
+          h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+          }
+          
+          .timer {
+            font-size: 15px;
+            margin-bottom: 20px;
+            color: rgb(7, 81, 110);
+            font-weight: bold;
+          }
+          
+          .start-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: skyblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          .start-button:hover {
+            background-color: rgb(33, 163, 206)
+          }
+          
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>5 Секундтық Хабарлама</h1>
+        <button id="startButton" class="start-button">Хабарламаны бастау</button>
+        
+        <div id="timer" class="timer"></div>
+        <div id="message"style="font-size: 18; color:rgb(7, 81, 110); font-weight: bold;" ></div>
+    </div>
+   <script src="13.01.js"></script>
+</body>
+</html>
