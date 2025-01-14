@@ -38,4 +38,3 @@ fetchData("https://jsonplaceholder.typicode.com/users").then(response=>{
     console.log(err.toString());
 })
 
-fetchData();
