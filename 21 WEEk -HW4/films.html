@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Collection</title>
+    <link rel="stylesheet" href="films.css">
+</head>
+<body>
+    <header>
+        <h1>Film Collection</h1>
+    </header>
+    <main>
+        <form id="filmForm">
+            <label for="filmName">Film Name:</label>
+            <input type="text" id="filmName" name="filmName" required>
+            
+            <label for="filmGenre">Genre:</label>
+            <input type="text" id="filmGenre" name="filmGenre" required>
+            
+            <label for="imageLink">Image Link:</label>
+            <input type="url" id="imageLink" name="imageLink" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="buttons">
+            <button id="addButton">Add Films from URL</button>
+            <button id="clearButton">Clear All</button>
+        </div>
+        
+        <div id="filmContainer">
+           
+        </div>
+    </main>
+    <script src="films.js"></script>
+</body>
+</html>

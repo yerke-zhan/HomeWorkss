@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+form button:hover {
+    background-color: #575757;
+}
+
+#buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#addButton {
+    background-color: #28a745;
+}
+
+#addButton:hover {
+    background-color: #38a169;
+}
+
+#clearButton {
+    background-color: #dc3545;
+}
+
+#clearButton:hover {
+    background-color: #e83e8c;
+}
+
+#filmContainer {
+    margin-top: 20px;
+}
+
+.film-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.film-item img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.film-item h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #555;
+}
+
+.film-item p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.film-item button {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+.film-item button:hover {
+    background-color: #ff6666;
+}

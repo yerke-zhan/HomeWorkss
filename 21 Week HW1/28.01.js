@@ -6,6 +6,7 @@ let derek =[]
 savebtn.addEventListener('click', function(e) {
     e.preventDefault()
     let note = document.getElementById('text')
+    // this.textContent = 
     
     
     if(note){
